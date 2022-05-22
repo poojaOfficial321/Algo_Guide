@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/bg_color_header">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/hello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Hello"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hello"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="User"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ic_baseline_account_circle_24"/>
+
+            <RelativeLayout
+                android:id="@+id/r1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/search_bg">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/search"
+                    android:tint="@color/black"
+                    android:layout_marginLeft="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="55dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Search"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="-30dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="10dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_baseline_menu_book_24"
+            android:layout_marginLeft="5dp"
+            android:tint="@color/orange_700" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic Algorithm"
+            android:textSize="20dp"
+            android:textColor="@color/purple_500"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-40dp"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/graph"
+                android:tint="@color/orange_700"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Graph"
+                android:textSize="20dp"
+                android:textColor="@color/purple_500"
+                android:fontFamily="@font/poppins_medium"
+
+                android:layout_marginTop="-40dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="10dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/tree"
+                android:tint="@color/orange_700"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tree"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_500"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-40dp"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:src="@drawable/search"
+                android:tint="@color/orange_700"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_500"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-40dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
