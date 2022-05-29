@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AlgoGuide/app/src/main/res/drawable/bg_color_header.xml" value="0.1" />
+        <entry key="..\:/AlgoGuide/app/src/main/res/font/poppins.xml" value="0.1109375" />
+        <entry key="..\:/AlgoGuide/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/AlgoGuide/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AlgoGuide/app/src/main/res/layout/course_item_layout.xml" value="0.1" />
+        <entry key="..\:/AlgoGuide/app/src/main/res/layout/fragment_bubble_sort.xml" value="0.1" />
         <entry key="..\:/AlgoGuide/app/src/main/res/layout/fragment_course.xml" value="0.1" />
       </map>
     </option>
